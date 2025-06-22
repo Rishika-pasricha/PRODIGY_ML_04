@@ -34,17 +34,6 @@ The model uses the **leapGestRecog** dataset, which consists of grayscale images
     ```
 3. Download and extract the dataset from Kaggle
 
-## 🚀 How to Run
-
-1. Place the dataset in the appropriate folder (e.g., `data/leapGestRecog`)
-2. Run the training script or notebook:
-    ```bash
-    python hand_gesture_train.py
-    ```
-3. For prediction or testing, run:
-    ```bash
-    python hand_gesture_predict.py
-    ```
 
 ## 📊 Results
 
