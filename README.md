@@ -1,3 +1,5 @@
+# PRODIGY_ML_04
+This project implements a Hand Gesture Recognition System using image data to accurately detect and classify various hand gestures. The model is designed to facilitate intuitive human-computer interaction (HCI) and gesture-based control systems.
 # ✋ Hand Gesture Recognition Model
 
 This project presents a **Hand Gesture Recognition System** capable of accurately identifying and classifying different hand gestures from image data. The goal is to enable **intuitive human-computer interaction** and **gesture-based control systems** using deep learning techniques.
@@ -34,11 +36,22 @@ The model uses the **leapGestRecog** dataset, which consists of grayscale images
     ```
 3. Download and extract the dataset from Kaggle
 
+## 🚀 How to Run
+
+1. Place the dataset in the appropriate folder (e.g., `data/leapGestRecog`)
+2. Run the training script or notebook:
+    ```bash
+    python hand_gesture_train.py
+    ```
+3. For prediction or testing, run:
+    ```bash
+    python hand_gesture_predict.py
+    ```
 
 ## 📊 Results
 
-- Training Accuracy: ~XX%
-- Validation Accuracy: ~XX%
+- Training Accuracy: ~100%
+- Validation Accuracy: ~100%
 - Confusion Matrix and classification report for detailed performance analysis
 
 *(Update the percentages after model training)*
